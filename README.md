@@ -82,3 +82,11 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/docs/reference/command-line-reference)
+
+
+
+## Notes 
+
+- "build" : "tsc -b",  => can be used in CI CD pipelines
+- "start" : "node ./dist/index.js", => cmd to start your sever or could be used in end of your DockerFile 
+- "dev" : "npm run build && npm run start" => mostly used in dev environment
