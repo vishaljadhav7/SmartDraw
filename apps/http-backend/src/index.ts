@@ -1,4 +1,5 @@
 import express, {Request, Response} from 'express';
+import { prisma } from '@repo/db/clients';
 
 const app = express();
 

@@ -17,6 +17,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ws": "^8.18.1"
+    "ws": "^8.18.1",
+    "@repo/db" : "workspace:*"
   }
 }
